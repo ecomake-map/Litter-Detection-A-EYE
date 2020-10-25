@@ -1,13 +1,20 @@
 {
   "files": {
-    "main.js": "/ecomake-map/static/js/main.4c5006ee.chunk.js",
-    "main.js.map": "/ecomake-map/static/js/main.4c5006ee.chunk.js.map",
+    "main.css": "/ecomake-map/static/css/main.185181a9.chunk.css",
+    "main.js": "/ecomake-map/static/js/main.c8f99b60.chunk.js",
+    "main.js.map": "/ecomake-map/static/js/main.c8f99b60.chunk.js.map",
     "runtime-main.js": "/ecomake-map/static/js/runtime-main.0e91f941.js",
     "runtime-main.js.map": "/ecomake-map/static/js/runtime-main.0e91f941.js.map",
-    "index.html": "/ecomake-map/index.html"
+    "static/js/2.47d69b5a.chunk.js": "/ecomake-map/static/js/2.47d69b5a.chunk.js",
+    "static/js/2.47d69b5a.chunk.js.map": "/ecomake-map/static/js/2.47d69b5a.chunk.js.map",
+    "index.html": "/ecomake-map/index.html",
+    "static/css/main.185181a9.chunk.css.map": "/ecomake-map/static/css/main.185181a9.chunk.css.map",
+    "static/js/2.47d69b5a.chunk.js.LICENSE.txt": "/ecomake-map/static/js/2.47d69b5a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0e91f941.js",
-    "static/js/main.4c5006ee.chunk.js"
+    "static/js/2.47d69b5a.chunk.js",
+    "static/css/main.185181a9.chunk.css",
+    "static/js/main.c8f99b60.chunk.js"
   ]
 }
