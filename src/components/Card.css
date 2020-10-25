@@ -1,0 +1,45 @@
+.Card {
+    position: fixed;
+    display: block;
+    right: 40px;
+    top: 40px;
+    border-radius: 10px;
+    background-color: #ededed;
+    height: 500px;
+    width: 355px;
+    z-index: 100;
+    box-shadow: 0px 9px 19px 5px rgba(0, 0, 0, 0.42);
+}
+
+.CardBody {
+    margin: 20px 20px;
+    max-height: 35%;
+    overflow: hidden;
+}
+
+.CardBody p {
+    color: #232323;
+    font-size: 20px;
+}
+
+.tomato {
+    color: tomato;
+}
+
+.img {
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+
+.Backdrop {
+    background-color: transparent;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: 50;
+}
