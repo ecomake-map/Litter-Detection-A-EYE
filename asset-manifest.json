@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/ecomake-map/static/js/main.4c5006ee.chunk.js",
+    "main.js.map": "/ecomake-map/static/js/main.4c5006ee.chunk.js.map",
+    "runtime-main.js": "/ecomake-map/static/js/runtime-main.0e91f941.js",
+    "runtime-main.js.map": "/ecomake-map/static/js/runtime-main.0e91f941.js.map",
+    "index.html": "/ecomake-map/index.html"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0e91f941.js",
+    "static/js/main.4c5006ee.chunk.js"
+  ]
+}
