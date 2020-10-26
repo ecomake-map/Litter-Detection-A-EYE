@@ -6,16 +6,9 @@ import requests
 import json
 import pyrebase
 
-config = {
-   "apiKey": "AIzaSyCPQrcn6LKESGwYDvcv2TyL69DBGkYGPzM",
-    "authDomain": "ecomake-litter-detection.firebaseapp.com",
-    "databaseURL": "https://ecomake-litter-detection.firebaseio.com",
-    "projectId": "ecomake-litter-detection",
-    "storageBucket": "ecomake-litter-detection.appspot.com",
-    "messagingSenderId": "33879517927",
-    "appId": "1:33879517927:web:ead9dd0ac58eb1678f5042",
-    "measurementId": "G-2P7F8DTD3B"
-}
+#config = {
+#your firebase config info 
+#}
 
 postData = {
     "homeMobileCountryCode": 310,
@@ -41,7 +34,7 @@ postData = {
     ]
 }
 
-# 'https://www.googleapis.com/geolocation/v1/geolocate?key=AIzaSyDej4tfnSFsNHhxVn2IDsxJZ104B1zReSU'
+# 'https://www.googleapis.com/geolocation/v1/geolocate?key=YOURKEY'
 
 
 camera = PiCamera()
@@ -56,7 +49,7 @@ photo_counter = 0
 camera.start_preview(alpha=200)
 for i in range(5):
 
-    postUrl = 'https://www.googleapis.com/geolocation/v1/geolocate?key=AIzaSyDej4tfnSFsNHhxVn2IDsxJZ104B1zReSU'
+    postUrl = 'https://www.googleapis.com/geolocation/v1/geolocate?key=YOURKEY'
     r_coord = requests.post(postUrl, json=postData)
     #print(json.loads(r_coord.text))
     
@@ -74,7 +67,7 @@ for i in range(5):
     
     image_path = '/home/pi/Desktop/photos/' + filename
     image_data = open(image_path, "rb").read()
-    headers = {'Ocp-Apim-Subscription-Key': "0ad406e78ee84ce4a38d5c5631eb03a9",
+    headers = {'Ocp-Apim-Subscription-Key': "YOUR KEY",
                'Content-Type': 'application/octet-stream'}
     params = {'visualFeatures': 'Tags'}
     response = requests.post(
