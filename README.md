@@ -5,4 +5,4 @@ Using the react app, we display the position of each image on a google map (reac
 
 Ecomake 2020 3rd place winner project - Made by Dan Peerapatanapokin, Grayson Harralson, Kenneth Wong and Ibrahim Saeed.
 
-<img src="https://github.com/IbrahimSaeedPurdue/ecomake-map/blob/main/ecomake-map.png”>
+![Image of demo](https://github.com/IbrahimSaeedPurdue/ecomake-map/blob/main/ecomake-map.png)
