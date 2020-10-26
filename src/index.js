@@ -8,16 +8,9 @@ import firebase from "firebase/app";
 import "firebase/firestore";
 
 // Initialize Firebase
-const config = {
-    "apiKey": "AIzaSyCPQrcn6LKESGwYDvcv2TyL69DBGkYGPzM",
-    "authDomain": "ecomake-litter-detection.firebaseapp.com",
-    "databaseURL": "https://ecomake-litter-detection.firebaseio.com",
-    "projectId": "ecomake-litter-detection",
-    "storageBucket": "ecomake-litter-detection.appspot.com",
-    "messagingSenderId": "33879517927",
-    "appId": "1:33879517927:web:ead9dd0ac58eb1678f5042",
-    "measurementId": "G-2P7F8DTD3B"
-};
+//const config = {
+//  ... (Your Config info)
+//};
 firebase.initializeApp(config);
 
 // This prevents a warning message for changes to firestore timestamp syntax in the console
